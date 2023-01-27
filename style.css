@@ -1,0 +1,482 @@
+body{
+    margin: 0;
+    background-color:white;
+}
+.header{
+    width: 100%;
+    height: 110px;
+    box-shadow: 1px 1px 5px rgb(187, 187, 187);
+}
+.name{
+    width: 50%;
+    background-color:white;
+    float: left;
+}
+.logo{
+    padding-top: 30px;
+    padding-left: 20px;
+    width: 100px;
+    height: 50px;
+    background-color:white;
+    float: left;
+}
+.flex-container{
+    padding-top: 36px;
+    display: flex;
+    background-color:white;
+
+}
+.flex-container>div{
+    
+    color: black;
+    
+    padding: 10px;
+    font-size: 15px;
+    
+    
+}
+.text{
+   
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+    
+}
+a:hover{
+    color: rgb(6, 96, 35);
+}
+.location{
+    
+    padding-bottom: 5px;
+    height: 2px;
+    width: 2px;
+}
+.flex-login{
+    padding-top: 36px;
+    display: flex;
+    background-color:rgb(255, 255, 255);
+    padding-left: 340px;
+
+}
+.flex-container>div{
+    
+    color: black;
+    
+    padding: 10px;
+    font-size: 15px;
+    
+    
+}
+.button{
+    width:80px;
+    height: 33px;
+    border-radius: 50px;
+    margin-left: 25px;
+    font-weight: bold;
+    color: black;
+    
+    border-width: 1px;
+    
+}
+.button:hover{
+    background-color: rgb(217, 217, 217);
+    cursor: pointer;
+}
+.find{
+    
+    
+    
+    margin-left: 15px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    
+}
+.buttonn{
+    width: 100px;
+    height: 33px;
+    border-radius: 50px;
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    
+    
+}
+.buttonn:hover{
+    background-color: rgb(82, 82, 82);
+    border-color: grey;
+    cursor: pointer;
+}
+/* .up{
+    align-items: center;
+    text-align: center;
+
+} */
+
+.right{
+    width: 50%;
+    float: left;
+    height: 400px;
+    
+}
+.left{
+    width: 50%;
+    float: left;
+    height: 400px;
+    background-color: rgb(215, 173, 131);
+    
+    
+}
+.first{
+    padding-top: 20px;
+    margin: 45px;
+    height: 400px;
+}
+.image{
+    height: 400px;
+    width: 690px;
+}
+
+.h1{
+    
+    padding-top: 110px;
+    color: rgb(44, 44, 44);
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+    align-items: center;
+    text-align: center;
+}
+.h2{
+    font-weight: 300;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+    color: rgb(44, 44, 44);
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+.first1{
+    
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    width:140px;
+    height: 38px;
+    border-radius: 50px;
+    margin-left: 290px;
+    font-weight: bold;
+    color: black;
+    border-width: 1px;
+    background-color: rgb(215, 173, 131);
+    font-size: 15px;
+
+}.first1:hover{
+    background-color: rgba(161, 128, 97, 0.67);
+    cursor: pointer;
+}
+.second{
+    /* padding-top: 20px; */
+    margin: 45px;
+    height: 630px;
+    
+}
+.right2{
+    width: 50%;
+    float: left;
+    height: 630px;
+    background-color: rgb(107, 152, 188);
+
+    
+}
+.left2{
+    width: 50%;
+    float: left;
+    height: 630px;
+    background-color: rgb(107, 152, 188);
+    
+    
+}
+.image2{
+    height: 630px;
+    width: 690px;
+}
+.h12{
+    font-weight: bolder;
+    font-size: 50px;
+    padding-top: 170px;
+    color: rgb(44, 55, 44);
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    letter-spacing: 7px;
+    align-items: center;
+    text-align: center;
+}
+.h22{
+    font-weight: 500 ;
+    
+    font-size: 25px;
+    color: rgb(44, 55, 44);
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5;
+}
+.second2{
+    
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    width:120px;
+    height: 38px;
+    border-radius: 50px;
+    margin-left: 290px;
+    font-weight: bold;
+    color: black;
+    border-width: 1px;
+    background-color: rgb(107, 152, 188);
+    font-size: 15px;
+
+}.second2:hover{
+    background-color: rgb(85, 144, 192);
+    cursor: pointer;
+}
+.thired{
+    /* padding-top: 20px; */
+    margin: 45px;
+    height: 630px;
+    
+}
+.right3{
+    width: 50%;
+    float: left;
+    height: 630px;
+    background-color: rgb(107, 152, 188);
+
+    
+}
+.left3{
+    width: 50%;
+    float: left;
+    height: 630px;
+    background-color: #8b323e;
+    
+    
+}
+.h13{
+    font-weight: bolder;
+    font-size: 50px;
+    padding-top: 170px;
+    color: rgb(243, 243, 243);
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+    align-items: center;
+    text-align: center;
+}
+.h23{
+    font-weight: 500 ;
+    
+    font-size: 25px;
+    color: rgb(238, 238, 238);
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5;
+}
+.image3{
+    height: 630px;
+    width: 690px;
+}
+.thired3{
+    
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    width:120px;
+    height: 38px;
+    border-color: aliceblue;
+    border-radius: 50px;
+    margin-left: 290px;
+    font-weight: bold;
+    color: rgb(244, 240, 240);
+    border-width: 1px;
+    background-color: #8b323e;
+    font-size: 15px;
+    letter-spacing: 1px;
+
+}.thired3:hover{
+    background-color: rgba(171, 178, 183, 0.237);
+    cursor: pointer;
+}
+.right4{
+    width: 50%;
+    float: left;
+    height: 400px;
+    background-color: #3d7170;
+    
+}
+.left4{
+    width: 50%;
+    float: left;
+    height: 400px;
+    background-color: #3d7170;
+    
+    
+}
+.four{
+    padding-top: 20px;
+    margin: 45px;
+    height: 400px;
+}
+.image4{
+    height: 400px;
+    width: 690px;
+}
+
+.h14{
+    
+    padding-top: 110px;
+    color: rgb(255, 255, 255);
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+    
+    align-items: center;
+    text-align: center;
+}
+.h24{
+    font-weight: 500;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 19px;
+    line-height: 1.6;
+}
+.four4{
+    
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    width:120px;
+    height: 38px;
+    border-color: aliceblue;
+    border-radius: 50px;
+    margin-left: 290px;
+    font-weight: bold;
+    color: white;
+    border-width: 1px;
+    background-color: #3d7170;
+    font-size: 15px;
+    letter-spacing: 1px;
+
+}.four4:hover{
+    background-color: rgba(171, 178, 183, 0.237);
+    cursor: pointer;
+}
+.five{
+    padding-top: 20px;
+    margin: 45px;
+    height: 140px;
+    background-color:  rgb(165, 204, 207);
+}
+.h15{
+    
+    font-weight: 600;
+    color: black;
+    font-size: 25px;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    /* letter-spacing: 1px; */
+    
+    align-items: center;
+    text-align: center;
+}
+.small{
+    
+    text-align: center;
+    font-weight:  400;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+
+    padding-top: 10px;
+}
+.footer{
+    margin-top: 25px;
+    width: 100%;
+    height: 640px;
+    box-shadow: 9px 1px 10px rgb(187, 187, 187);
+} 
+.six{
+    
+   
+    margin: 45px;
+    height: 440px;
+   
+}
+.footflex{
+    display: flex;
+    
+    /* justify-content: center; */
+}
+.flextext{
+    font-size: 19px;
+    font-weight:  500;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    padding: 40px;
+    letter-spacing: 1px;
+    color: black;
+    
+    
+
+}
+.flextextt{
+    font-size: 15px;
+    font-weight:  500;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    padding-left: 40px;
+    padding-top: 15px;
+    letter-spacing: 1px;
+    
+    color: rgb(75, 75, 75);
+    
+
+}.flextextt:hover{
+    color: black;
+    cursor: pointer;
+}
+.seven{
+    
+    margin-left: 45px;
+    margin-right: 45px;
+    height: 35px;
+    
+   
+}
+.iconflex{
+    padding-top: 5px;
+    display: flex;
+}
+.icon{
+    color: black;
+    padding: 9px;
+}
+.icon:hover{
+    transition: all .2s ease-out;
+    transform-origin: center;
+    transform: scale(1);
+    fill: transparent;
+    
+    
+}
+.footext{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 9px;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    
+}.footext:hover{
+    text-decoration: underline;
+    color: black;
+}
+.small{
+    padding: 5px;
+    color: grey;
+    font-size: 13px;
+}
+.lst{
+    padding-top: 17px;
+}
