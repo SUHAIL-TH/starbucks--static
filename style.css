@@ -85,8 +85,8 @@ a:hover{
 }
 .find{
     
-    
-    
+    margin-top: 7px;
+    display: flex;
     margin-left: 15px;
     font-weight: bold;
     color: black;
